@@ -8,9 +8,10 @@ twitter: https://twitter.com/rafaelcamillo_
 linkedin: https://www.linkedin.com/in/rafael-camillo
 ---
 
-# Sobre Rafael Camillo
+# Rafael Camillo
 
-Olá! Sou Rafael Camillo, um Engenheiro de Software Sênior com mais de 7 anos de experiência, especializado em **Vue.js**, **React** e **Angular**, e um aspirante a Gerente de Produto. Atualmente, estou baseado em Belo Horizonte, Brasil, e tenho trabalhado remotamente para empresas internacionais, principalmente nos Estados Unidos.
+Olá! Sou Rafael Camillo, um Engenheiro de Software Sênior com mais de 7 anos de experiência, especializado em Front End com proficiência em **Angular, React, Vue.js, Node.js, MongoDB, SQL Server e .Net C#**
+, e um aspirante a Gerente de Produto. Atualmente, estou baseado em Belo Horizonte, Brasil, e tenho trabalhado remotamente para empresas internacionais, principalmente nos Estados Unidos.
 
 ## Experiência Profissional
 
@@ -24,12 +25,8 @@ Aqui estão alguns dos feedbacks que recebi de colegas e clientes no LinkedIn:
 
 - "Rafael é um profissional incrível... Sempre trouxe questões importantes para reuniões e planejamentos e sua comunicação era cristalina. Ele se preocupa muito com a qualidade do código e do produto..." - Armando Ferraz Graça Neto, Java Tech Lead.
 
-(Para mais feedbacks, [clique aqui](link-para-o-linkedin).)
-
 ## Vamos Conversar!
 
-Estou sempre aberto a novas oportunidades e colaborações. Se você estiver interessado em discutir um projeto ou apenas quiser bater um papo sobre tecnologia, ficarei feliz em [entrar em contato](mailto:seuemail@dominio.com).
+Estou sempre aberto a novas oportunidades e colaborações. Se você estiver interessado em discutir um projeto ou apenas quiser bater um papo sobre tecnologia, ficarei feliz em [entrar em contato](mailto:rafael-camillo@outlook.com).
 
 ---
-
-[Veja meu portfólio](link-para-o-portfolio) | [Leia meu blog](link-para-o-blog) | [Conecte-se comigo no LinkedIn](link-para-o-linkedin)
