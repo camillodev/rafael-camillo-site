@@ -1,5 +1,10 @@
 {
-  "locales": ["en", "fr"],
+  "locales": ["en", "pt", "fr"],
+  "languageMappings": {
+    "en": "English",
+    "pt": "Português (Brasil)",
+    "fr": "Francês"
+  },
   "defaultLocale": "en",
   "pages": {
     "*": ["common", "headerNavLinks", "newsletter", "404", "SEO"],

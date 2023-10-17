@@ -7,6 +7,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import i18n from '../i18n.json'
 
 import useTranslation from 'next-translate/useTranslation'
 import { useRouter } from 'next/router'
@@ -61,7 +62,7 @@ const LayoutWrapper = ({ children }) => {
             >
               {locales.map((e) => (
                 <option value={e} key={e}>
-                  {e}
+                  {i18n.languageMappings[e]}
                 </option>
               ))}
             </select>
