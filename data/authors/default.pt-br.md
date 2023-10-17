@@ -8,14 +8,28 @@ twitter: https://twitter.com/rafaelcamillo_
 linkedin: https://www.linkedin.com/in/rafael-camillo
 ---
 
-Hello! I’m Rafael Camillo, a seasoned Senior Software Engineer and an aspiring Product Manager with a track record of spearheading projects that resonate with users and drive business growth. With over seven years of immersive experience across diverse industries, my journey has been a blend of coding, strategic planning, and fostering collaborative environments.
+# Sobre Rafael Camillo
 
-Rooted in the vibrant city of Belo Horizonte, Brazil, my professional path has meandered through various international realms, notably in the United States. The essence of remote collaboration and cross-cultural communication has been the hallmark of my career, nurturing not only my technical acumen but also my knack for managing distributed teams and projects.
+Olá! Sou Rafael Camillo, um Engenheiro de Software Sênior com mais de 7 anos de experiência, especializado em **Vue.js**, **React** e **Angular**, e um aspirante a Gerente de Produto. Atualmente, estou baseado em Belo Horizonte, Brasil, e tenho trabalhado remotamente para empresas internacionais, principalmente nos Estados Unidos.
 
-My technical canvas is colored with proficiency in Angular, React, Vue.js, Node.js, MongoDB, SQL Server, and .Net C#. Agile methodologies are my go-to companions for orchestrating projects with a rhythm that ensures timely delivery, quality, and a dose of fun. Transitioning towards Product Management, I’ve embraced the realm of user research, product design, and customer development, aligning technical solutions with user-centric approaches to deliver products that hit the sweet spot of user satisfaction and business objectives.
+## Experiência Profissional
 
-I am a staunch advocate for remote work, thriving in setups where cross-functional teams collaborate to churn out amazing digital products. My blog is a glimpse into my thoughts on software engineering, product management insights, and the dynamics of remote teamwork.
+Minha jornada tem sido uma mistura de codificação, planejamento estratégico e fomento a ambientes colaborativos. Tenho um histórico comprovado de liderança em projetos que ressoam com os usuários e impulsionam o crescimento dos negócios.
 
-When the code settles, and the product roadmaps are drawn, you’ll find me mingling in local tech meetups, enjoying a cup of Brazil's finest coffee, or amidst nature on a hiking trail.
+Aqui estão alguns dos feedbacks que recebi de colegas e clientes no LinkedIn:
 
-I am driven by the infinite potential of technology to craft experiences that matter and am on a perpetual quest to hone my skills, broaden my understanding, and contribute meaningfully to the digital sphere. Whether it’s a challenging project, a discussion on product strategies, or a casual tech chatter, I’m just a message away!
+- "Rafael é um excelente comunicador, jogador de equipe e pessoa da comunidade. Sua forte conhecimento em Vue.js, React, Node.js e GraphQL nos permitiu construir uma aplicação performática e escalável." - Marcos Leonel, Engenheiro de Software Sênior.
+
+- "Rafael ajudou-nos a corrigir bugs e construir novas funcionalidades em VueJS para nossa plataforma de educação em ciência de dados. Ele enfrentou alegremente tudo o que precisávamos trabalhar e foi muito fácil colaborar com ele." - Elliot Murphy.
+
+- "Rafael é um profissional incrível... Sempre trouxe questões importantes para reuniões e planejamentos e sua comunicação era cristalina. Ele se preocupa muito com a qualidade do código e do produto..." - Armando Ferraz Graça Neto, Java Tech Lead.
+
+(Para mais feedbacks, [clique aqui](link-para-o-linkedin).)
+
+## Vamos Conversar!
+
+Estou sempre aberto a novas oportunidades e colaborações. Se você estiver interessado em discutir um projeto ou apenas quiser bater um papo sobre tecnologia, ficarei feliz em [entrar em contato](mailto:seuemail@dominio.com).
+
+---
+
+[Veja meu portfólio](link-para-o-portfolio) | [Leia meu blog](link-para-o-blog) | [Conecte-se comigo no LinkedIn](link-para-o-linkedin)

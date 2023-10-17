@@ -8,14 +8,26 @@ twitter: https://twitter.com/rafaelcamillo_
 linkedin: https://www.linkedin.com/in/rafael-camillo
 ---
 
-Hello! I’m Rafael Camillo, a seasoned Senior Software Engineer and an aspiring Product Manager with a track record of spearheading projects that resonate with users and drive business growth. With over seven years of immersive experience across diverse industries, my journey has been a blend of coding, strategic planning, and fostering collaborative environments.
+# Sobre Mim
 
-Rooted in the vibrant city of Belo Horizonte, Brazil, my professional path has meandered through various international realms, notably in the United States. The essence of remote collaboration and cross-cultural communication has been the hallmark of my career, nurturing not only my technical acumen but also my knack for managing distributed teams and projects.
+Olá! Sou Rafael Camillo, um Engenheiro de Software Sênior experiente com uma trajetória de liderança em projetos que ressoam com os usuários e impulsionam o crescimento dos negócios. Com mais de sete anos de experiência imersiva em diversas indústrias, minha jornada tem sido uma mistura de codificação, planejamento estratégico e promoção de ambientes colaborativos.
 
-My technical canvas is colored with proficiency in Angular, React, Vue.js, Node.js, MongoDB, SQL Server, and .Net C#. Agile methodologies are my go-to companions for orchestrating projects with a rhythm that ensures timely delivery, quality, and a dose of fun. Transitioning towards Product Management, I’ve embraced the realm of user research, product design, and customer development, aligning technical solutions with user-centric approaches to deliver products that hit the sweet spot of user satisfaction and business objectives.
+Originário da vibrante cidade de Belo Horizonte, Brasil, minha carreira profissional me levou através de vários reinos internacionais, notadamente nos Estados Unidos. A essência da colaboração remota e da comunicação intercultural tem sido a marca da minha carreira, nutrindo não apenas meu acumen técnico, mas também minha aptidão para gerenciar equipes e projetos distribuídos.
 
-I am a staunch advocate for remote work, thriving in setups where cross-functional teams collaborate to churn out amazing digital products. My blog is a glimpse into my thoughts on software engineering, product management insights, and the dynamics of remote teamwork.
+## Competências Técnicas
 
-When the code settles, and the product roadmaps are drawn, you’ll find me mingling in local tech meetups, enjoying a cup of Brazil's finest coffee, or amidst nature on a hiking trail.
+Minha tela técnica é colorida com proficiência em **Angular, React, Vue.js, Node.js, MongoDB, SQL Server e .Net C#**. As metodologias ágeis são minhas companheiras preferidas para orquestrar projetos com um ritmo que garante entrega pontual, qualidade e uma dose de diversão. Ao transitar para a Gestão de Produtos, abracei o reino da pesquisa de usuários, design de produtos e desenvolvimento de clientes, alinhando soluções técnicas com abordagens centradas no usuário para entregar produtos que atingem o ponto ideal de satisfação do usuário e objetivos de negócios.
 
-I am driven by the infinite potential of technology to craft experiences that matter and am on a perpetual quest to hone my skills, broaden my understanding, and contribute meaningfully to the digital sphere. Whether it’s a challenging project, a discussion on product strategies, or a casual tech chatter, I’m just a message away!
+## Testemunhos
+
+- **Marcos Leonel**: "Recomendo Rafael Camillo para qualquer posição de desenvolvimento front-end... Rafael é um excelente comunicador, jogador de equipe e pessoa comunitária..." [Leia mais](link-para-o-feedback-completo)
+- **Elliot Murphy**: "Rafael nos ajudou a corrigir bugs e a construir novos recursos em VueJS para nossa plataforma de educação em ciência de dados... Definitivamente recomendaria Rafael para trabalhar em projetos de frontend!" [Leia mais](link-para-o-feedback-completo)
+- E muitos outros feedbacks valiosos que demonstram minha dedicação e competência no cenário de desenvolvimento.
+
+## Entre em Contato
+
+Estou sempre aberto a novas oportunidades e colaborações. Se você está interessado em discutir um projeto desafiador, estratégias de produto ou apenas deseja bater um papo sobre tecnologia, estou apenas a uma mensagem de distância. Sinta-se à vontade para entrar em contato através do formulário abaixo ou envie-me um e-mail diretamente para [email@email.com](mailto:email@email.com).
+
+---
+
+[Veja meu portfolio](link-para-o-portfolio) | [Leia meu blog](link-para-o-blog) | [Conecte-se comigo no LinkedIn](link-para-o-linkedin)
