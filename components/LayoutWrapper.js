@@ -58,7 +58,7 @@ const LayoutWrapper = ({ children }) => {
               onChange={changeLanguage}
               defaultValue={locale}
               style={{ textAlignLast: 'center' }}
-              className="text-shadow-sm bg-transparent text-sm tracking-wide text-gray-900 dark:text-gray-100"
+              className="text-shadow-sm bg-transparent text-sm border-radius tracking-wide text-gray-900 dark:text-gray-100"
             >
               {locales.map((e) => (
                 <option value={e} key={e}>

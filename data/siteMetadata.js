@@ -1,13 +1,11 @@
 const siteMetadata = {
   title: {
-    en: 'Next.js Starter Blog',
-    'pt-br': 'Starter de blog NextJs',
-    fr: 'Starter de blog NextJs',
+    en: 'Rafael Camillo',
+    'pt-br': 'Rafael Camillo',
   },
   author: 'Tails Azimuth',
-  headerTitle: { en: 'TailwindBlog', 'pt-br': 'blog Tailwind', fr: 'blog Tailwind' },
-  // description: 'A blog created with Next.js and Tailwind.css',
-  description: { en: 'en description', 'pt-br': 'Description en pt', fr: 'Description en fr' },
+  headerTitle: { en: 'Rafael Camillo', 'pt-br': 'Rafael Camillo' },
+  description: { en: '', 'pt-br': '' },
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

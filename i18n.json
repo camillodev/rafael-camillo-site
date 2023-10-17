@@ -1,9 +1,8 @@
 {
-  "locales": ["en", "pt-br", "fr"],
+  "locales": ["en", "pt-br"],
   "languageMappings": {
     "en": "English",
-    "pt-br": "Português (Brasil)",
-    "fr": "Francês"
+    "pt-br": "PT-BR"
   },
   "defaultLocale": "en",
   "pages": {
