@@ -3,7 +3,7 @@ const siteMetadata = {
     en: 'Rafael Camillo',
     'pt-br': 'Rafael Camillo',
   },
-  author: 'Tails Azimuth',
+  author: 'Rafael Camillo',
   headerTitle: { en: 'Rafael Camillo', 'pt-br': 'Rafael Camillo' },
   description: { en: '', 'pt-br': '' },
   language: 'en-us',
