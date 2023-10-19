@@ -16,7 +16,7 @@ Hello! I am Rafael Camillo, a Senior Software Engineer with over 7 years of expe
 
 My journey has been a mix of coding, strategic planning, and fostering collaborative environments. I have a proven track record of leading projects that resonate with users and drive business growth.
 
-Here are some of the feedbacks I received from colleagues and clients on LinkedIn:
+[Here are some of the feedbacks I received from colleagues and clients on LinkedIn:](https://www.linkedin.com/in/rafael-camillo/details/recommendations/)
 
 "Rafael is an excellent communicator, team player, and community person. His strong knowledge in Vue.js, React, Node.js, and GraphQL enabled us to build a performant and scalable application." - Marcos Leonel, Senior Software Engineer.
 
