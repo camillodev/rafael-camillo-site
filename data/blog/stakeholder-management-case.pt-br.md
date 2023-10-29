@@ -1,8 +1,8 @@
 ---
 title: 'Como Salvei um Projeto em Crise e Satisfez os Stakeholders'
-date: '2023-10-28'
+date: '2023-10-29'
 tags:
-[
+ [
 'Gerenciamento de Produto',
 'Engajamento de Stakeholders',
 'Transformação de Projeto',
