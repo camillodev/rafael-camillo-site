@@ -1,5 +1,5 @@
 ---
-title: 'Como Salvei um Projeto em Crise e Satisfez os Stakeholders'
+title: 'O Poder do Gerenciamento de Stakeholders: Virando o Jogo em um Projeto à Deriva'
 date: '2023-10-29'
 tags:
  [
