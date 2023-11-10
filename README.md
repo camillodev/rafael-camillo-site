@@ -1,5 +1,3 @@
-![tailwind-nextjs-banner](/public/static/images/tailwind-i18n.png)
-
 # Tailwind Nextjs Starter Blog
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/stargazers/)
