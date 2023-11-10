@@ -20,6 +20,21 @@ const GAScript = () => {
             });
         `}
       </Script>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${siteMetadata.analytics.googleAnalyticsId2}`}
+      />
+
+      <Script strategy="lazyOnload" id="ga-script">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${siteMetadata.analytics.googleAnalyticsId2}', {
+              page_path: window.location.pathname,
+            });
+        `}
+      </Script>
     </>
   )
 }

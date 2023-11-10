@@ -34,6 +34,7 @@ const siteMetadata = {
     // },
     googleAnalytics: {
       googleAnalyticsId: 'G-EXV3CH019K', // e.g. G-XXXXXXX
+      googleAnalyticsId2: 'G-VMX2LTCCLG',
     },
   },
   // newsletter: {
