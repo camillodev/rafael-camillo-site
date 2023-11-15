@@ -1,25 +1,13 @@
 ---
 title: 'Building a Social Startup: My Journey with Tecnogueto'
 date: '2023-10-23'
-tags:
-  [
-    'Leadership',
-    'Business',
-    'Social Startup',
-    'Diversity',
-    'Inclusion',
-    'Social Impact',
-    'Management',
-    'Tecnogueto',
-    'Innovation',
-    'Entrepreneurship',
-    'Education',
-  ]
+image: '/static/images/boundary.webp'
+tags: ['Product Management', 'Code', 'Tech', 'Projects', 'Remote', 'Diversity']
 draft: false
 summary: 'My multifaceted experience in co-founding and leading a social startup aimed at diversity and inclusion in the tech industry.'
 ---
 
-## Introduction
+![Descrição](/static/images/boundary.webp)
 
 Building a startup is not an easy process; a social startup is even more challenging. That's the case with Tecnogueto, aimed at bringing marginalized individuals, Blacks, women, LGBT, or older people into the tech market.
 
