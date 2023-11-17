@@ -1,6 +1,7 @@
 ---
 title: 'How I Solved the Micro Frontend Compatibility Issue'
 date: '2023-10-24'
+image: '/static/images/transform.jpg'
 tags:
   [
     'Vue.js',
@@ -15,7 +16,7 @@ draft: false
 summary: 'Facing challenges with incompatible Vue 3 components in microfrontends? Discover a creative approach to transpile Vue 3 components into pure JavaScript, ensuring seamless integration across projects.'
 ---
 
-# Navigating Microfrontend Challenges
+![Descrição](/static/images/transform.jpg)
 
 As soon as I joined the company, the team was working with microfrontends, refactoring our sidenav and integrating it into our design system. Our UI library was written in Vue 3, but some of our projects were not yet Vue 3 compatible. The sidenav, which we use across all products, became a question mark.
 So,
