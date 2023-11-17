@@ -37,6 +37,7 @@ export default function Home({ posts, locale, availableLocales }) {
           summary={posts[0].summary}
           tags={posts[0].tags}
           image={posts[0].image}
+          isBanner
         />
       }
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
@@ -48,30 +49,14 @@ export default function Home({ posts, locale, availableLocales }) {
           const { slug, date, title, summary, tags, image } = frontMatter
           return (
             <li key={slug} className="py-12">
-              <article className="post-card post tag-community tag-legends">
-                <div className="post-card-image">
-                  {image ? (
-                    <Image src={image} alt={title} layout="fill" objectFit="cover" />
-                  ) : (
-                    <Image
-                      src="/static/images/generic.jpg"
-                      alt={title}
-                      layout="fill"
-                      objectFit="cover"
-                    />
-                  )}
-                </div>
-
-                <div className="post-card-content">
-                  <a className="post-card-content-link" href={`/blog/${slug}`}>
-                    <header className="post-card-header">
-                      <span className="post-card-tags">{tags[0]}</span>
-                      <h2 className="post-card-title">{title}</h2>
-                      <span className="reading-time">{summary}</span>
-                    </header>
-                  </a>
-                </div>
-              </article>
+              <Post
+                slug={slug}
+                date={date}
+                title={title}
+                summary={summary}
+                tags={tags}
+                image={image}
+              />{' '}
             </li>
             // <li key={slug} className="py-12">
             //   <article>
