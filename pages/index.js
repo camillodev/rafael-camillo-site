@@ -1,4 +1,5 @@
 import Link from '@/components/Link'
+import Post from '@/components/Post'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
@@ -9,7 +10,7 @@ import Image from 'next/image'
 
 // import NewsletterForm from '@/components/NewsletterForm'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 3
 
 export async function getStaticProps({ locale, defaultLocale, locales }) {
   const otherLocale = locale !== defaultLocale ? locale : ''
@@ -28,88 +29,91 @@ export default function Home({ posts, locale, availableLocales }) {
         description={siteMetadata.description[locale]}
         availableLocales={availableLocales}
       />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            {t('common:greeting')}
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description[locale]}
-          </p>
-        </div>
-        <ul className="grid grid-cols-3 gap-4 divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
-          {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags, image } = frontMatter
-            return (
-              <li key={slug} className="py-12">
-                <article className="post-card post tag-community tag-legends">
-                  <div className="post-card-image">
-                    {image ? (
-                      <Image src={image} alt={title} layout="fill" objectFit="cover" />
-                    ) : (
-                      <Image
-                        src="/static/images/generic.jpg"
-                        alt={title}
-                        layout="fill"
-                        objectFit="cover"
-                      />
-                    )}
-                  </div>
-
-                  <div className="post-card-content">
-                    <a className="post-card-content-link" href={`/blog/${slug}`}>
-                      <header className="post-card-header">
-                        <span className="post-card-tags">{tags[0]}</span>
-                        <h2 className="post-card-title">{title}</h2>
-                        <span className="reading-time">{summary}</span>
-                      </header>
-                    </a>
-                  </div>
-                </article>
-              </li>
-              // <li key={slug} className="py-12">
-              //   <article>
-              //     <div className="grid grid-cols-3 gap-4">
-              //       <div className="col-span-1">
-              //         <dl>
-              //           <dt className="sr-only">{t('common:pub')}</dt>
-              //           <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-              //             <time dateTime={date}>{formatDate(date, locale)}</time>
-              //           </dd>
-              //         </dl>
-              //       </div>
-              //       <div className="col-span-2">
-              //         <h2 className="text-2xl font-bold leading-8 tracking-tight">
-              //           <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
-              //             {title}
-              //           </Link>
-              //         </h2>
-              //         <div className="flex flex-wrap">
-              //           {tags.map((tag) => (
-              //             <Tag key={tag} text={tag} />
-              //           ))}
-              //         </div>
-              //         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-              //           {summary}
-              //         </div>
-              //         <div className="text-base font-medium leading-6">
-              //           <Link
-              //             href={`/blog/${slug}`}
-              //             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              //             aria-label={`Read "${title}"`}
-              //           >
-              //             {t('common:more')} &rarr;
-              //           </Link>
-              //         </div>
-              //       </div>
-              //     </div>
-              //   </article>
-              // </li>
-            )
-          })}
-        </ul>
+      {
+        <Post
+          slug={posts[0].slug}
+          date={posts[0].date}
+          title={posts[0].title}
+          summary={posts[0].summary}
+          tags={posts[0].tags}
+          image={posts[0].image}
+        />
+      }
+      <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+        <h1 className="text-3xl font-extrabold leading-9">{t('common:greeting')}</h1>
       </div>
+      <ul className="grid grid-cols-3 gap-4 divide-y divide-gray-200 dark:divide-gray-700">
+        {!posts.length && 'No posts found.'}
+        {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
+          const { slug, date, title, summary, tags, image } = frontMatter
+          return (
+            <li key={slug} className="py-12">
+              <article className="post-card post tag-community tag-legends">
+                <div className="post-card-image">
+                  {image ? (
+                    <Image src={image} alt={title} layout="fill" objectFit="cover" />
+                  ) : (
+                    <Image
+                      src="/static/images/generic.jpg"
+                      alt={title}
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  )}
+                </div>
+
+                <div className="post-card-content">
+                  <a className="post-card-content-link" href={`/blog/${slug}`}>
+                    <header className="post-card-header">
+                      <span className="post-card-tags">{tags[0]}</span>
+                      <h2 className="post-card-title">{title}</h2>
+                      <span className="reading-time">{summary}</span>
+                    </header>
+                  </a>
+                </div>
+              </article>
+            </li>
+            // <li key={slug} className="py-12">
+            //   <article>
+            //     <div className="grid grid-cols-3 gap-4">
+            //       <div className="col-span-1">
+            //         <dl>
+            //           <dt className="sr-only">{t('common:pub')}</dt>
+            //           <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+            //             <time dateTime={date}>{formatDate(date, locale)}</time>
+            //           </dd>
+            //         </dl>
+            //       </div>
+            //       <div className="col-span-2">
+            //         <h2 className="text-2xl font-bold leading-8 tracking-tight">
+            //           <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
+            //             {title}
+            //           </Link>
+            //         </h2>
+            //         <div className="flex flex-wrap">
+            //           {tags.map((tag) => (
+            //             <Tag key={tag} text={tag} />
+            //           ))}
+            //         </div>
+            //         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+            //           {summary}
+            //         </div>
+            //         <div className="text-base font-medium leading-6">
+            //           <Link
+            //             href={`/blog/${slug}`}
+            //             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            //             aria-label={`Read "${title}"`}
+            //           >
+            //             {t('common:more')} &rarr;
+            //           </Link>
+            //         </div>
+            //       </div>
+            //     </div>
+            //   </article>
+            // </li>
+          )
+        })}
+      </ul>
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
