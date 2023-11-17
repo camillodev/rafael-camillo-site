@@ -1,14 +1,9 @@
 import Link from '@/components/Link'
 import Post from '@/components/Post'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
 import useTranslation from 'next-translate/useTranslation'
-import Image from 'next/image'
-
-// import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 3
 

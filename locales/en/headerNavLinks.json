@@ -2,5 +2,8 @@
   "blog": "Blog",
   "tags": "Tags",
   "projects": "Projects",
-  "about": "About"
+  "code": "Code",
+  "business": "Business",
+  "about": "About",
+  "must": "Must Read"
 }
