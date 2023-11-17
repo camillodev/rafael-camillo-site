@@ -36,6 +36,9 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
+.more {
+  color: #ff0035;
+}
 
 .post-card-title {
   font-size: 1.3rem;

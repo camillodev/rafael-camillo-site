@@ -40,76 +40,41 @@ export default function Home({ posts, locale, availableLocales }) {
           isBanner
         />
       }
-      <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-        <h1 className="text-3xl font-extrabold leading-9">{t('common:greeting')}</h1>
-      </div>
-      <ul className="grid grid-cols-3 gap-4 divide-y divide-gray-200 dark:divide-gray-700">
-        {!posts.length && 'No posts found.'}
-        {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-          const { slug, date, title, summary, tags, image } = frontMatter
-          return (
-            <li key={slug} className="py-12">
-              <Post
-                slug={slug}
-                date={date}
-                title={title}
-                summary={summary}
-                tags={tags}
-                image={image}
-              />{' '}
-            </li>
-            // <li key={slug} className="py-12">
-            //   <article>
-            //     <div className="grid grid-cols-3 gap-4">
-            //       <div className="col-span-1">
-            //         <dl>
-            //           <dt className="sr-only">{t('common:pub')}</dt>
-            //           <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-            //             <time dateTime={date}>{formatDate(date, locale)}</time>
-            //           </dd>
-            //         </dl>
-            //       </div>
-            //       <div className="col-span-2">
-            //         <h2 className="text-2xl font-bold leading-8 tracking-tight">
-            //           <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
-            //             {title}
-            //           </Link>
-            //         </h2>
-            //         <div className="flex flex-wrap">
-            //           {tags.map((tag) => (
-            //             <Tag key={tag} text={tag} />
-            //           ))}
-            //         </div>
-            //         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-            //           {summary}
-            //         </div>
-            //         <div className="text-base font-medium leading-6">
-            //           <Link
-            //             href={`/blog/${slug}`}
-            //             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            //             aria-label={`Read "${title}"`}
-            //           >
-            //             {t('common:more')} &rarr;
-            //           </Link>
-            //         </div>
-            //       </div>
-            //     </div>
-            //   </article>
-            // </li>
-          )
-        })}
-      </ul>
-      {posts.length > MAX_DISPLAY && (
-        <div className="flex justify-end text-base font-medium leading-6">
-          <Link
-            href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="all posts"
-          >
-            {t('common:all')} &rarr;
-          </Link>
+      <div className="post-category">
+        <div className="section-header flex justify-between pt-12">
+          <h1 className="flex text-3xl  font-extrabold leading-6">{t('common:greeting')}</h1>
+          {posts.length > MAX_DISPLAY && (
+            <div className=" justify-end text-base font-medium leading-6">
+              <Link
+                href="/blog"
+                className="more text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                aria-label="all posts"
+              >
+                {t('common:all')}
+              </Link>
+            </div>
+          )}
         </div>
-      )}
+        <ul className="grid grid-cols-3 gap-4 ">
+          {!posts.length && 'No posts found.'}
+          {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
+            const { slug, date, title, summary, tags, image } = frontMatter
+            return (
+              <li key={slug} className="py-12">
+                <Post
+                  slug={slug}
+                  date={date}
+                  title={title}
+                  summary={summary}
+                  tags={tags}
+                  image={image}
+                />{' '}
+              </li>
+            )
+          })}
+        </ul>
+      </div>
+
       {/* {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm title={t('newsletter:title')} />
