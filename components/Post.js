@@ -17,9 +17,8 @@ const Post = ({ slug, date, title, summary, tags, image }) => {
 
           <div className="post-card-content">
             <header className="post-card-header">
-              <span className="post-card-tags">{tags[0]}</span>
+              <span className="post-card-tag">{tags[0]}</span>
               <h2 className="post-card-title">{title}</h2>
-              <span className="reading-time">{summary}</span>
             </header>
           </div>
         </article>
