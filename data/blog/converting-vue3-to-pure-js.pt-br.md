@@ -2,16 +2,7 @@
 title: 'Como resolvi o problema de incompatibilidade entre micro front ends'
 date: '2023-10-24'
 image: '/static/images/transform.jpg'
-tags:
-  [
-    'Vue.js',
-    'JavaScript',
-    'transpilation',
-    'microfrontends',
-    'vue 3',
-    'real world problem',
-    'Quasar',
-  ]
+tags: ['code', 'Vue.js', 'JavaScript', 'microfrontends', 'real world problem']
 draft: false
 summary: 'Enfrentando desafios com componentes Vue 3 em microfrontends não-compatíveis? Descubra uma abordagem criativa para transpilar componentes Vue 3 para JavaScript puro, garantindo integração perfeita entre projetos.'
 ---

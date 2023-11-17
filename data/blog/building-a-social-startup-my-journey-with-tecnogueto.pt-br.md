@@ -2,19 +2,7 @@
 title: 'Construindo uma Startup Social: Minha Jornada com a Tecnogueto'
 date: '2023-10-23'
 image: '/static/images/boundary.webp'
-tags:
-  [
-    'Liderança',
-    'Startup Social',
-    'Diversidade',
-    'Inclusao',
-    'Impacto Social',
-    'Gestão',
-    'Tecnogueto',
-    'Inovação',
-    'Empreendedorismo',
-    'Educação',
-  ]
+tags: ['business', 'Educação']
 draft: false
 summary: 'Minha experiência multifacetada em co-fundar e liderar uma startup social voltada para a diversidade e inclusão no setor de tecnologia. De assumir múltiplos papéis como desenvolvedor, professor e coordenador, a superar desafios como financiamento e gestão de voluntários, este artigo oferece um olhar íntimo sobre os altos e baixos de criar impacto social através da tecnologia. Se você está interessado em liderança, empreendedorismo social ou diversidade na tecnologia, este é um artigo que você não vai querer perder.'
 ---

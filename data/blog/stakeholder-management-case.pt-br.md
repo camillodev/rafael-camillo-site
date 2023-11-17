@@ -3,6 +3,7 @@ title: 'O Poder do Gerenciamento de Stakeholders: Virando o Jogo em um Projeto �
 date: '2023-10-29'
 tags:
  [
+    'business',
 'Gerenciamento de Produto',
 'Engajamento de Stakeholders',
 'Transformação de Projeto',

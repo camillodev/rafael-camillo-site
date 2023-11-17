@@ -3,6 +3,7 @@ title: 'How I Rescued a Crisis-Stricken Project and Pleased Stakeholders'
 date: '2023-10-28'
 tags:
   [
+    'business',
     'Product Management',
 'Stakeholder Engagement',
 'Project Transformation',

@@ -1,7 +1,7 @@
 ---
 title: 'How to Build a Scalable Vue.js Application: Architectural Best Practices'
 date: '2023-10-16'
-tags: ['Vue.js', 'architecture', 'scalability']
+tags: ['code', 'Vue.js', 'architecture', 'scalability']
 draft: false
 summary: 'Building scalable Vue.js applications require architectural best practices. This article outlines the key strategies.'
 ---

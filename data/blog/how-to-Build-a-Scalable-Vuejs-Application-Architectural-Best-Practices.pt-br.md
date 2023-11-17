@@ -1,7 +1,7 @@
 ---
 title: 'Como Construir uma Aplicação Vue.js Escalável: Melhores Práticas de Arquitetura'
 date: '2023-10-16'
-tags: ['Vue.js', 'arquitetura', 'escalabilidade']
+tags: ['code', 'Vue.js', 'arquitetura', 'escalabilidade']
 draft: false
 summary: 'Construir aplicações Vue.js escaláveis requer melhores práticas arquitetônicas. Este artigo destaca as estratégias chave.'
 ---

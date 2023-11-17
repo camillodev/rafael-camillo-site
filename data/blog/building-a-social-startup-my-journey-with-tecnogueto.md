@@ -2,7 +2,7 @@
 title: 'Building a Social Startup: My Journey with Tecnogueto'
 date: '2023-10-23'
 image: '/static/images/boundary.webp'
-tags: ['Product Management', 'Code', 'Tech', 'Projects', 'Remote', 'Diversity']
+tags: ['business', 'Product Management', 'Tech', 'Projects', 'Remote', 'Diversity']
 draft: false
 summary: 'My multifaceted experience in co-founding and leading a social startup aimed at diversity and inclusion in the tech industry.'
 ---
